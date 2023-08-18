@@ -1,16 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     height: 100vh;
     background: #111;
     overflow: hidden;
 }
 
-.line{
+.line {
     position: absolute;
     bottom: 0;
     width: 20px;
@@ -38,7 +38,7 @@ body{
 
 }
 
-.line::before{
+.line::before {
     content: '';
     position: absolute;
     top: 100%;
@@ -46,5 +46,5 @@ body{
     width: 50%;
     height: 100vh;
     opacity: 0.5s;
-    background: linear-gradient(#0f0,transparent);
+    background: linear-gradient(transparent);
 }
